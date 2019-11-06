@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Contact</title>
+    <title>Sophia Jacobs Contact</title>
     <style>
         .header {
             color: #36A0FF;
@@ -34,7 +34,7 @@
 </head>
 
 <body>
-    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <div class="skip"><a href="#contact-main">Skip to Main Content</a></div>
     <div class="nav">
         <nav>
             <ul>
@@ -42,16 +42,20 @@
                 <li><a href="../portfolio/about.html">About</a></li>
                 <li><a href="../portfolio/resume.html">Resumé</a></li>
                 <li><a href="../portfolio/design.html">Design</a></li>
-                <li><a href="../portfolio/contact.html">Contact</a></li>
+                <li><a class="active" href="../portfolio/contact.html">Contact</a></li>
             </ul>
         </nav>
     </div>
 
     <!-- http://www.prepbootstrap.com/bootstrap-template/contact-form -->
     <main>
-        <h1>Contact Me</h1>
-        <img src="../portfolio/images/stained-glass-close-up.jpg" alt="Close Up of Stained Glass window" />
-        <h2>Thank you for looking around my site. If you have any questions about my work or experiences, I would love to hear from you!</h2>
+        <header id="contact-main">
+            <h1>Contact Me</h1>
+        </header>
+        <div class="contact-pic">
+            <!-- <img src="../portfolio/images/stained-glass-close-up.jpg" alt="Close Up of Stained Glass window" /> -->
+            <h2 class="contact-text">Thank you for looking around my site. If you have any questions about my work or experiences, I would love to hear from you!</h2>
+        </div>
         <form class="form-horizontal" method="post">
             <fieldset>
                 <legend class="text-center header">Your Contact Information</legend>
@@ -59,33 +63,34 @@
                 <div class="form-group">
                     <span><i class="fa fa-user bigicon"></i></span>
                     <div>
-                        <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                        <input id="fname" name="name" type="text" placeholder="First Name" class="form-control" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <span><i class="fa fa-user bigicon"></i></span>
                     <div>
-                        <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                        <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control" required>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <span><i class="fa fa-paper-plane bigicon"></i></span>
                     <div>
-                        <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                        <input id="email" name="email" type="text" placeholder="Email Address" class="form-control" required>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <span><i class="fa fa-phone-square bigicon"></i></span>
                     <div>
-                        <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
-                    </div>
+                        <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control" required>
+                    </div><br/>
+                    <br/>
                 </div>
                 <div class="form-group">
                     <span><i class = "fas fa-pencil-alt bigicon"></i></span>
                     <div>
-                        <textarea class="form-control" id="message" name="message" placeholder="Enter your message here. I'll get back to you within 48 hours."></textarea>
+                        <textarea class="form-control" id="message" name="message" placeholder="Enter your message here. I'll get back to you within 48 hours."> </textarea>
                     </div>
                 </div>
 
