@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
     <title>Sophia Jacobs Contact</title>
     <style>
         .header {
@@ -33,8 +34,11 @@
     </style>
 </head>
 
-<body>
+<body class="contact-body">
     <div class="skip"><a href="#contact-main">Skip to Main Content</a></div>
+    <header>
+        Sophia Jacobs
+    </header>
     <div class="nav">
         <nav>
             <ul>
@@ -49,9 +53,7 @@
 
     <!-- http://www.prepbootstrap.com/bootstrap-template/contact-form -->
     <main>
-        <header id="contact-main">
-            <h1>Contact Me</h1>
-        </header>
+        <!-- <h1 id="contact-main">Contact Me</h1> -->
         <div class="contact-pic">
             <!-- <img src="../portfolio/images/stained-glass-close-up.jpg" alt="Close Up of Stained Glass window" /> -->
             <h2 class="contact-text">Thank you for looking around my site. If you have any questions about my work or experiences, I would love to hear from you!</h2>
@@ -90,7 +92,7 @@
                 <div class="form-group">
                     <span><i class = "fas fa-pencil-alt bigicon"></i></span>
                     <div>
-                        <textarea class="form-control" id="message" name="message" placeholder="Enter your message here. I'll get back to you within 48 hours."> </textarea>
+                        <textarea id="message" name="message" placeholder="Enter your message here. I'll get back to you within 48 hours." class="form-control" required> </textarea>
                     </div>
                 </div>
 
@@ -102,7 +104,8 @@
             </fieldset>
         </form>
     </main>
-    <div>
+    <!-- fix footer so that it sticks to bottom -->
+    <div class="contact-foot">
         <footer>
             <p>Sophia Jacobs<br/>sophjac@umich.edu<br/>(513) 240-7031<br/><a href="https://github.com/sophjac/">GitHub</a> &bull; <a href="https://www.linkedin.com/in/sophia-jacobs-35467b171/">LinkedIn</a></p>
         </footer>
