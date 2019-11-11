@@ -434,31 +434,6 @@ margin-bottom: -50px;
     #about-page img {
         width: 70%;
     }
-    /* .about-container {
-       display: grid;
-       grid-template-columns: 1fr auto;
-       grid-row-gap: 15px;
-       grid-template-rows: 1fr auto auto;
-   }
-   .about-container #main {
-       grid-column: 1 / span 2;
-       grid-row: 1 / span 1;
-       padding-top: 70%;
-       font-size: 30px;
-       text-align: center;
-   }
-   .about-container #about-page {
-       grid-column: 1 / span 2;
-       grid-row: 1 / span 1;
-   }
-   .about-container #about-info {
-       grid-column: 1 / -1;
-       grid-row: 2 / span 1;
-   }
-   .about-container .about-foot {
-       grid-column: 1 / -1;
-       grid-row: 3 / span 1;
-   } */
     nav li {
         display: inline;
         border: none;
