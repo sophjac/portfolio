@@ -35,11 +35,7 @@ h1 {
     padding-top: 40%;
 } */
 
-div.box {
-    margin: 15%;
-}
-
-div.box p {
+div.box .main-text {
     background-color: rgb(131, 160, 250);
     opacity: 0.8;
     filter: alpha(opacity=80);
