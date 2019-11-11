@@ -30,16 +30,11 @@ h1 {
     font-size: 20px;
 }
 
-
-/* #main-page p {
-    padding-top: 40%;
-} */
-
-div.box .main-text {
+#main-page h1 {
     background-color: rgb(131, 160, 250);
     opacity: 0.8;
     filter: alpha(opacity=80);
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
     /* margin: 5%; */
     font-weight: bold;
@@ -408,9 +403,6 @@ margin-bottom: -50px;
     div.box {
         margin: 0%;
     }
-    /* #main-page p {
-        padding-top: 5%;
-    } */
     div.gallery img {
         padding-bottom: 5px;
     }
@@ -502,13 +494,6 @@ margin-bottom: -50px;
         margin-left: 100px;
         margin-right: 100px;
     }
-    /* .journey-pics {
-     display: flex;
-     flex-direction: column;
- }
- .journey-pics img {
-     width: 30%;
- } */
     .diamond-container {
         display: flex;
         flex-direction: row-reverse;
