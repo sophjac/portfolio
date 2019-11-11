@@ -157,10 +157,11 @@ header p {
 }
 
 .contact-pic img {
+    padding-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 50%;
 }
 
 .form-horizontal {
