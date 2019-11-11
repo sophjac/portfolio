@@ -297,22 +297,18 @@ div.gallery img:hover {
     grid-row: 4 / span 1;
 }
 
-.resume-foot {
-    grid-column: 1 / -1;
-    grid-row: 5 / span 1;
-}
-
 .section-header-1,
 .section-header-2,
 .section-header-3,
 .section-header-4 {
     font-size: 20px;
+    padding-bottom: 15px;
 }
 
 .design-container {
     display: grid;
     grid-template-columns: 1fr auto auto;
-    grid-row-gap: 15px;
+    /* grid-row-gap: 15px; */
     grid-template-rows: 1fr auto auto auto;
 }
 
@@ -373,6 +369,10 @@ div.gallery img:hover {
     display: flex;
     flex-direction: column;
     /* min-height: 70vh; */
+}
+
+.design-prob {
+    padding-top: 10px;
 }
 
 .design-prob p {
